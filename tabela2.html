@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>    
+        table {
+            border: 1px solid black;
+            width: 600px;
+            height: 800px;
+            text-align: center;
+            background-color: lightgray;
+            
+        }
+        .topo {
+            height: 100px;
+            font-size: larger;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        .rodape {
+            height: 50px;
+            font-variant: small-caps;
+        }
+        .menu {
+            width: 35%;
+        }
+        .conteudo {
+            color: blueviolet;
+            font-size: xx-large;
+            background-color: greenyellow;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <Thead>
+            <tr>
+                <td class="topo" colspan="2">TOPO</td>
+            </tr>
+        </Thead>
+        <tbody>
+            <tr>
+                <th class="menu">MENU</th>
+                <td class="conteudo">CONTEÚDO</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="rodape" colspan="2">RODAPÉ</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
